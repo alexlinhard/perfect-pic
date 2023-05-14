@@ -11,9 +11,9 @@
 	 mysqli_set_charset( $con , "utf8" );
 
 	} else if ($dest == "local"){
-	 $dbPass = "rooti";  	    // Home	 	// Server Local
+	 $dbPass = "";  	    // Home	 	// Server Local
 	 $host = "localhost";
-     $dbName = "db_bikeshop_al";
+     $dbName = "db_perfectpic_al";
      $dbUser = "root"; 
      $con = mysqli_connect($host, $dbUser, $dbPass, $dbName); 
 	mysqli_set_charset( $con , "utf8" );
